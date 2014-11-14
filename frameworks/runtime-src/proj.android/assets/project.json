@@ -1,0 +1,26 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/globals.js",
+        "src/MainMenuLayer.js",
+        "src/MainMenuScene.js",
+        "src/Turtle.js",
+        "src/BackgroundLayer.js",
+        "src/StatusBarLayer.js",
+        "src/ReelCell.js",
+        "src/GameLayer.js",
+        "src/GameScene.js"
+    ]
+}
